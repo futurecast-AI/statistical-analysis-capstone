@@ -104,6 +104,27 @@ def test_pdf_is_readable_and_contains_figures():
         assert "10.1371/journal.pone.0295726" in text
 
 
+def test_plain_language_section_matches_review_feedback():
+    markdown = (ROOT / "module_summary.md").read_text()
+    docx = "\n".join(p.text for p in Document(ROOT / "module_summary.docx").paragraphs)
+    with fitz.open(ROOT / "module_summary.pdf") as pdf:
+        pdf_text = "\n".join(page.get_text() for page in pdf)
+    for text in [markdown, docx, pdf_text]:
+        section = text.split("Interpretation for a Non-Technical Audience", 1)[1]
+        section = section.split("Limitations and Potential Bias", 1)[0]
+        section = " ".join(section.split())
+        for jargon in ["p-value", "null model", "null hypothesis", "rho",
+                       "American Statistical Association", "(2016)"]:
+            assert jargon.lower() not in section.lower()
+        for value in [f"{SUMMARY['studytime_groups'][i]['mean']:.1f}" for i in [0, 2, 3]]:
+            assert value in section
+        assert "2.4 grade points" in section
+        assert "out of 20" in section
+        assert "not to promise a grade increase" in section
+        assert "do not show that extra study hours caused better grades" in section
+        assert "two schools" in section
+
+
 def test_template_preserved():
     audit = json.loads((ROOT / "outputs/report_template_audit.json").read_text())
     assert audit["styles_preserved"] and audit["section_preserved"]

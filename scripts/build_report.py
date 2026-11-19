@@ -108,15 +108,19 @@ sections = [
      "Figure 3 exposes school composition and small cells that require caution."),
     ("Interpretation for a Non-Technical Audience",
      "In these records, students reporting more weekly study time tended to have "
-     "higher final grades, but the relationship was not strong enough to predict "
-     "a particular student's outcome reliably. Students in different time groups "
-     "often had similar grades, and the highest-time group did not have the highest "
-     "average. The small p-value indicates incompatibility with the specified "
-     "null model under its assumptions; it is not the probability that the null "
-     "hypothesis is true, nor a measure of practical importance "
-     "(American Statistical Association, 2016). This analysis does not show that "
-     "assigning extra study hours would improve a student's grade, or that any "
-     "particular number of hours is optimal."),
+     "higher final grades. Students who reported studying less than 2 hours a week "
+     f"averaged {groups[0]['mean']:.1f} out of 20, while those reporting 5 to 10 hours "
+     f"averaged {groups[2]['mean']:.1f}. That is a difference of about "
+     f"{groups[2]['mean'] - groups[0]['mean']:.1f} grade points. Students reporting "
+     f"more than 10 hours averaged {groups[3]['mean']:.1f}, so the group reporting "
+     "the most study time did not have the highest average.\n\n"
+     "Students in different study-time groups often had similar grades, so study "
+     "time alone cannot reliably tell a student what grade to expect. A student or "
+     "teacher can use this finding to start a conversation about study habits, "
+     "not to promise a grade increase or set an ideal number of hours. The records "
+     "do not show that extra study hours caused better grades; earlier learning, "
+     "motivation or support at home could also help explain the differences. "
+     "These results describe students at two schools and may not apply elsewhere."),
     ("Limitations and Potential Bias",
      "The file covers two schools rather than a documented probability sample "
      "of all students, so selection and school-context bias limit generalization. "

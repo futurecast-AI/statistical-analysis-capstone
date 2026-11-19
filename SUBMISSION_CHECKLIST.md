@@ -20,6 +20,8 @@ Author: AI Foundations (Edward Hickman)
 
 ## Before submitting
 
+- For this resubmission, use the revised report: its non-technical section gives
+  concrete grade averages and practical meaning without jargon or citations.
 - Read the notebook and report, understand the test and limitations, and revise
   the wording to reflect your understanding. Replit AI assistance is disclosed;
   confirm that the course permits this use.

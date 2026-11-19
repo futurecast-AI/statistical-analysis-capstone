@@ -32,7 +32,9 @@ Of the three visual models, Figure 2 most directly supports the question: it dis
 
 ## Interpretation for a Non-Technical Audience
 
-In these records, students reporting more weekly study time tended to have higher final grades, but the relationship was not strong enough to predict a particular student's outcome reliably. Students in different time groups often had similar grades, and the highest-time group did not have the highest average. The small p-value indicates incompatibility with the specified null model under its assumptions; it is not the probability that the null hypothesis is true, nor a measure of practical importance (American Statistical Association, 2016). This analysis does not show that assigning extra study hours would improve a student's grade, or that any particular number of hours is optimal.
+In these records, students reporting more weekly study time tended to have higher final grades. Students who reported studying less than 2 hours a week averaged 10.8 out of 20, while those reporting 5 to 10 hours averaged 13.2. That is a difference of about 2.4 grade points. Students reporting more than 10 hours averaged 13.1, so the group reporting the most study time did not have the highest average.
+
+Students in different study-time groups often had similar grades, so study time alone cannot reliably tell a student what grade to expect. A student or teacher can use this finding to start a conversation about study habits, not to promise a grade increase or set an ideal number of hours. The records do not show that extra study hours caused better grades; earlier learning, motivation or support at home could also help explain the differences. These results describe students at two schools and may not apply elsewhere.
 
 ## Limitations and Potential Bias
 
