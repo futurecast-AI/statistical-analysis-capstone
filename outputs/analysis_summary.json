@@ -1,0 +1,137 @@
+{
+  "rows": 649,
+  "columns": 33,
+  "source_sha256": "a7594a11d7771c0efe1a740824e0e833da9c4cad07c39a9766a874575563fb3f",
+  "missing_cells": 0,
+  "repeated_full_rows": 0,
+  "grade_mean": 11.906009244992296,
+  "grade_sd": 3.230656242804805,
+  "grade_median": 12.0,
+  "grade_q1": 10.0,
+  "grade_q3": 14.0,
+  "zero_grades": 15,
+  "primary_rho": 0.2747118483356099,
+  "primary_pvalue": 1.0606240382701246e-12,
+  "alpha": 0.05,
+  "school_rhos": {
+    "GP": {
+      "n": 423,
+      "rho": 0.2675450982801494
+    },
+    "MS": {
+      "n": 226,
+      "rho": 0.17728293800243033
+    }
+  },
+  "sensitivity": {
+    "rank_correlation": 0.24675693129800985,
+    "extreme_count": 0,
+    "n_resamples": 19999,
+    "seed": 20261119,
+    "pvalue": 5e-05
+  },
+  "studytime_groups": [
+    {
+      "studytime": 1,
+      "n": 212,
+      "mean": 10.84433962264151,
+      "sd": 3.2186241265478754,
+      "median": 11.0,
+      "q1": 10.0,
+      "q3": 13.0,
+      "iqr": 3.0,
+      "study_label": "<2 hours"
+    },
+    {
+      "studytime": 2,
+      "n": 305,
+      "mean": 12.091803278688525,
+      "sd": 3.243125070719801,
+      "median": 12.0,
+      "q1": 10.0,
+      "q3": 14.0,
+      "iqr": 4.0,
+      "study_label": "2\u20135 hours"
+    },
+    {
+      "studytime": 3,
+      "n": 97,
+      "mean": 13.22680412371134,
+      "sd": 2.5021039256958963,
+      "median": 13.0,
+      "q1": 12.0,
+      "q3": 15.0,
+      "iqr": 3.0,
+      "study_label": "5\u201310 hours"
+    },
+    {
+      "studytime": 4,
+      "n": 35,
+      "mean": 13.057142857142857,
+      "sd": 3.038409579551322,
+      "median": 13.0,
+      "q1": 11.0,
+      "q3": 15.0,
+      "iqr": 4.0,
+      "study_label": ">10 hours"
+    }
+  ],
+  "school_groups": [
+    {
+      "school": "GP",
+      "studytime": 1,
+      "n": 119,
+      "mean": 11.529411764705882,
+      "median": 11.0
+    },
+    {
+      "school": "GP",
+      "studytime": 2,
+      "n": 206,
+      "mean": 12.733009708737864,
+      "median": 13.0
+    },
+    {
+      "school": "GP",
+      "studytime": 3,
+      "n": 71,
+      "mean": 13.56338028169014,
+      "median": 14.0
+    },
+    {
+      "school": "GP",
+      "studytime": 4,
+      "n": 27,
+      "mean": 13.407407407407407,
+      "median": 13.0
+    },
+    {
+      "school": "MS",
+      "studytime": 1,
+      "n": 93,
+      "mean": 9.96774193548387,
+      "median": 10.0
+    },
+    {
+      "school": "MS",
+      "studytime": 2,
+      "n": 99,
+      "mean": 10.757575757575758,
+      "median": 11.0
+    },
+    {
+      "school": "MS",
+      "studytime": 3,
+      "n": 26,
+      "mean": 12.307692307692308,
+      "median": 12.0
+    },
+    {
+      "school": "MS",
+      "studytime": 4,
+      "n": 8,
+      "mean": 11.875,
+      "median": 12.0
+    }
+  ]
+}
