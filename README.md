@@ -40,4 +40,11 @@ tests and decision/provenance notes are extras.
 Review `SUBMISSION_CHECKLIST.md` before uploading.
 `ANALYSIS_PLAN.md` records assumptions and the timing of decisions.
 Replit AI assistance is disclosed in the notebook and report.
-Statistical reasoning capstone: descriptive analysis, visualization, and inference using UCI student performance data.
+
+## Optional report rebuild
+
+`scripts/build_report.py <template.docx>` rebuilds the report from saved notebook
+results using the previously supplied CCC APA student-paper template.
+It requires a local export of that template and LibreOffice on the system;
+neither is needed to run the analysis notebook. The editable completed report
+is included, so a reviewer does not need the original template to read or edit it.

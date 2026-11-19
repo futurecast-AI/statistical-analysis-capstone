@@ -1,0 +1,12 @@
+{
+  "template_url": "https://docs.google.com/document/d/1cv_MjQVKnGc9sbaYiOUna2155jMEvUxACwyDax-XYWI/edit",
+  "template_sha256": "9f00e085eaa52ba4db22784f2a6c4e97d038c0424531e9b80f03fbae02140257",
+  "styles_preserved": true,
+  "section_preserved": true,
+  "headers_preserved": true,
+  "omitted_fields": [
+    "Instructor",
+    "Due date"
+  ],
+  "pdf_font": "Liberation Sans substitutes for retained Arial DOCX styles"
+}

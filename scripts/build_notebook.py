@@ -222,7 +222,8 @@ markdown("""
     SciPy's p-value is a large-sample approximation, not an exact probability;
     it assumes independent observations and suitable sampling. It is not the
     probability that H0 is true, nor a causal effect or a measure of practical
-    importance. Inspect the coefficient and figures, not only the p-value.
+    importance (American Statistical Association, 2016). Inspect the coefficient
+    and figures, not only the p-value.
 """)
 code("""
     primary = stats.spearmanr(df["studytime"], df["G3"], alternative="two-sided")
@@ -340,6 +341,10 @@ markdown("""
 markdown("""
     ## References and assistance
 
+    American Statistical Association. (2016, March 7). *American Statistical
+    Association releases statement on statistical significance and p-values*.
+    https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf
+
     Cortez, P. (2008). *Student Performance* [Data set]. UCI Machine Learning
     Repository. https://doi.org/10.24432/C5TG7T
 
@@ -363,6 +368,8 @@ markdown("""
     The learner remains responsible for reviewing, understanding and revising
     the submission and following the course's AI-use policy.
 """)
+
+cells[-2:] = [cells[-1], cells[-2]]
 
 notebook = nbf.v4.new_notebook(
     cells=cells,
